@@ -1,10 +1,18 @@
 name:                svm-simple
-version:             0.2.7
+version:             0.2.7.1
 synopsis:            Medium level, simplified, bindings to libsvm
 description:
   This is a set of simplified bindings to libsvm <http://www.csie.ntu.edu.tw/~cjlin/libsvm/> suite
   of support vector machines. This package provides tools for classification, one-class classification
   and support vector regression. 
+  .
+  Changes in version 0.2.7.1
+  .
+  * Bumped dependencies
+  .
+  Changes in version 0.2.7
+  .
+  * Added more automatic training functions
   .
   Changes in version 0.2.6.1
   .
@@ -71,9 +79,9 @@ library
     mwc-random   >= 0.8 && < 0.13,
     vector       >= 0.7.0.1 && < 1.1,
     directory    >= 1.1.0.0 && < 1.4,
-    containers   >= 0.4.2.0 && < 0.5,
+    containers   >= 0.4.2.0 && < 0.6,
     deepseq      >= 1.1     && < 1.6,
-    monad-par    >= 0.1.0.3 && < 0.1.1
+    monad-par    >= 0.1.0.3 && < 0.4
 
 -- executable svm-benchmark
 --     if !flag(benchmark)
